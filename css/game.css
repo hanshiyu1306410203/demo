@@ -1,0 +1,182 @@
+
+/*game_content*/
+.game_bottom{
+	overflow: hidden;
+	padding-top: 40px;
+}
+.game_bottom .game_slide{
+	float: left;
+	width: 195px;
+	overflow: hidden;
+}
+.picture{
+    width: 100%;
+    height: 250px;
+}
+.p1{
+    width:25%;
+    height: 250px;
+}
+.p2{
+    width: 25%;
+    height: 250px;
+}
+.p3{
+    width: 25%;
+    height: 250px;
+}
+.p4{
+    width: 24%;
+    height: 250px;
+}
+.one{
+    width: 330px;
+    height: 200px;
+}
+.game_bottom .game_slide ul{
+	width: 100%;
+	overflow: hidden;
+}
+.game_bottom .game_slide ul li{
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #cad6e1;
+	font-size: 16px;
+	line-height: 80px;
+}
+.game_bottom .game_slide ul li a{
+	display: block;
+	padding-left: 53px;
+	height: 100%;
+	position: relative;
+}
+.game_bottom .game_slide ul li.current a{
+	background: url(../images/arrow.png) no-repeat right center;
+	color: #38b774;
+}
+.game_bottom .game_slide ul li a i{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 42px;
+	height: 40px;
+	margin-top: -20px;
+	background: url(../images/pad.png) no-repeat 0 2px;
+}
+.game_bottom .game_slide ul li.current a i{
+	background-position: -125px 2px;
+}
+.game_bottom .game_slide ul li a:hover i{
+	background-position: -125px 2px;
+}
+.game_bottom .game_slide ul li a i.android{
+	background-position: -4px -97px;
+}
+.game_bottom .game_slide ul li a:hover i.android{
+	background-position: -124px -97px;
+}
+.game_bottom .game_slide ul li a i.ipad{
+	background-position: 0 -198px;
+}
+.game_bottom .game_slide ul li a:hover i.ipad{
+	background-position: -121px -198px;
+}
+.game_bottom .game_slide ul li a i.pc{
+	background-position: 0 -294px;
+}
+.game_bottom .game_slide ul li a:hover i.pc{
+	background-position: -120px -294px;
+}
+.game_bottom .game_slide ul li a i.tv{
+	background-position: 0 -599px;
+}
+.game_bottom .game_slide ul li a:hover i.tv{
+	background-position: -43px -599px;
+}
+/*gamecontent的产品部分*/
+.game_bottom .game_pro{
+	float: right;
+	width: 757px;
+	padding-top: 4px;
+	overflow: hidden;
+}
+.game_bottom .game_pro ul{
+	width: 1000px;
+	overflow: hidden;
+}
+.game_bottom .game_pro ul li{
+	float: left;
+	width: 331px;
+	height: 322px;
+	padding: 5px 12px 0;
+	border: 1px solid #cad6e1;
+	border-radius: 3px;
+	margin: 0 43px 42px 0;
+	text-align: center;
+}
+.game_bottom .game_pro ul li h3{
+	line-height: 53px;
+	font-size: 16px;
+}
+.game_bottom .game_pro ul li h3 a span{
+	font-size: 12px;
+	color: #38b774;
+	padding-right: 14px;
+	background: url(../images/arrow.png) no-repeat right center;
+}
+.game_bottom .game_pro ul li .gamepic{
+	display: block;
+	height: 195px;
+}
+.game_bottom .game_pro ul li .gamepic img{
+	display: block;
+}
+.game_bottom .game_pro ul li .gamepic:hover{
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.game_bottom .game_pro ul li p{
+	padding-top: 20px;
+	line-height: 36px;
+}
+.game_bottom .game_pro ul li p .game_left{
+	float: left;
+	width: 169px;
+	border-right: 1px solid #c7d6e5;
+}
+.game_bottom .game_pro ul li p .game_right{
+	float: left;
+	width: 161px;
+}
+.game_bottom .game_pro ul li p a{
+	display: inline-block;
+	padding-left: 32px;
+	background: url(../images/icon.png) no-repeat 0 -345px;
+}
+.game_bottom .game_pro ul li p .game_right a{
+	background-position: 0 -447px;
+	padding-left: 40px;
+}
+.game_bottom .game_pro .load_more{
+	display: block;
+	width: 213px;
+	height: 56px;
+	background: #38b774;
+	border-radius: 3px;
+	margin: 0 auto 40px;
+	color: #fff;
+	line-height: 56px;
+	text-align: center;
+}
+.game_bottom .game_pro .load_more:hover{
+	background: #2baa67;
+}
+/*gamefooter*/
+.gamefooter{
+	width: 100%;
+	padding: 24px 0;
+	line-height: 24px;
+	font-size: 12px;
+	background: #252947;
+	color: #6c6e7e;
+}
